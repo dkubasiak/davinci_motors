@@ -13,6 +13,6 @@ feature 'Creating Cars' do
 
     click_button 'Create Car'
 
-    expect(page).to have_content('1967 Ford Mustang created')
+    expect(page).to have_content('1967 Ford Mustang $2300.0 created')
   end
 end
